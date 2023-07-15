@@ -38,9 +38,9 @@ input.oninput = function () {
         let spanlb = document.createElement("span")
         spanlb.textContent = input.value 
         p.appendChild(spanlb)
-        p.appendChild(document.createTextNode(" Kg is equal to "))
+        p.appendChild(document.createTextNode(" Lb is equal to "))
         p.appendChild(spankg)
-        p.appendChild(document.createTextNode(" Lb"))
+        p.appendChild(document.createTextNode(" Kg"))
         result.appendChild(p)
     }
 }
