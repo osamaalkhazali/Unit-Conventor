@@ -23,7 +23,7 @@ input.oninput = function () {
         let spankg = document.createElement("span")
         spankg.textContent = input.value
         let spanlb = document.createElement("span")
-        spanlb.textContent = (input.value / 2.2).toFixed(4)
+        spanlb.textContent = (input.value * 2.2).toFixed(4)
         p.appendChild(spankg)
         p.appendChild(document.createTextNode(" Kg is equal to "))
         p.appendChild(spanlb)
@@ -34,7 +34,7 @@ input.oninput = function () {
         result.innerHTML=""
         let p = document.createElement("p")
         let spankg = document.createElement("span")
-        spankg.textContent = (input.value * 2.2).toFixed(4)
+        spankg.textContent = (input.value / 2.2).toFixed(4)
         let spanlb = document.createElement("span")
         spanlb.textContent = input.value 
         p.appendChild(spanlb)
